@@ -55,4 +55,3 @@ elif (user == 0 and user1 == 2) or (user == 1 and user1 == 0) or (user == 2 and 
     print("You defeated Computer...")
 else:
     print("Computer defeated You...")
-
