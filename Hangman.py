@@ -1,4 +1,5 @@
 import random
+from replit import clear  #To use replit lib insall replit in your system terminal  ------>  pip install replit
 
 stages = ['''
   +---+
@@ -299,6 +300,7 @@ for _ in range(word_length):
 
 while not end_of_game:
     guess = input("Guess a letter: ").lower()
+    clear()
     if guess in display:
         print(f"You already entered the letter : {guess}")
 
