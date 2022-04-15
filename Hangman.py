@@ -63,8 +63,6 @@ chosen_word = random.choice(word_list)
 word_length = len(chosen_word)
 lives = 6
 
-print(f'Pssst, the solution is {chosen_word}.')
-
 display = []
 for _ in range(word_length):
     display += "_"
