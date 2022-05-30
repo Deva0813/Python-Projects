@@ -20,6 +20,7 @@ def reset_timer():
     reps = 0
     tick.config(text="")
     window.after_cancel(time)
+    timer.config(text="TIMER", fg=GREEN)
 
 
 # ---------------------------- TIMER MECHANISM ------------------------------- #
